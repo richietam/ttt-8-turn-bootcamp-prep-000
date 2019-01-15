@@ -39,4 +39,5 @@ def turn(board)
   if (valid_move?(board,index)) == true
   move(board, index, token)
   counter += 1
+  end
 end
