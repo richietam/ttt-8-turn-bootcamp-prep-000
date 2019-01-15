@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-  if input_to_index <= 8
+  if index <= 8
     true
   else
     false
