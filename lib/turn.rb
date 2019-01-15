@@ -11,7 +11,7 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  if index <= 8
+  if (input_to_index(input)) <= 8
     true
   else
     false
