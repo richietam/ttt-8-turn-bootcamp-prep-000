@@ -7,7 +7,10 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-
+  if input_to_index <= 8
+    true
+  else
+    false
 end
 
 def position_taken?(board, index)
@@ -15,4 +18,4 @@ def position_taken?(board, index)
     false
   elsif board[index] == "X" || board[index] =="O"
     true
-end  
+end
